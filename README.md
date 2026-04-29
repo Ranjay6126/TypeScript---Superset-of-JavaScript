@@ -1,4 +1,4 @@
-﻿# TypeScript---Superset-of-JavaScript
+﻿# TypeScript---Superset-of-JavaScript.
 
 TypeScript - Superset of JavaScript
 
