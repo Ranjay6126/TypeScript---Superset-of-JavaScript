@@ -11,3 +11,14 @@ function getUser() {
 }
 
 type UserType = GetReturnType<typeof getUser>;
+
+
+// another example 
+type ApiResponse = Promise<string>;
+
+type ExtractPromise<T> =
+  T extends Promise<infer U>
+    ? U
+    : never;
+
+type Result = ExtractPromise<ApiResponse>;
